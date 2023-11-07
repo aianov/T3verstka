@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+input {
+    outline: none;
+}
+
+.dib {display: inline-block;}
+.df {display: flex;}
+.fdc {flex-direction: column;}
+.jcc {justify-content: center;}
+.jcsb {justify-content: space-between;}
+.aifs {align-items: flex-start;}
+.fww {flex-wrap: wrap;}
+.aic {align-items: center;}
+.posa {position: absolute;}
+.pos {position: relative;}
+.jcfs {justify-content: flex-start;}
+.cw {color: white;}
+.w100 {width: 100%;}
+.h100 {height: 100%;}
+.h100vh {height: 100vh;}
+.fz24 {font-size: 24px;}
+.fw400 {font-weight: 400;}
+.fw600 {font-weight: 600;}
+.fw700 {font-weight: 700;}
+.jcfs {justify-content: flex-start;}
+.ww {word-wrap: break-word;}
+
+.itemcard {
+    max-width: 1440px;
+    min-width: 720px;
+    border: 1px solid rgb(199, 199, 199);
+    border-radius: 10px;
+}
+
+/* LEFT */
+.left {
+    width: 40%;
+    height: 100%;
+}
+
+/* RIGHT */
+.right {
+    width: 60%;
+    padding: 16px 20px;
+}
+
+/* RIGHT-TOP */
+.top {
+    gap: 5px;
+}
+
+.top p:first-child {
+    color: #474342;
+    line-height: 36px;
+}
+
+.price {
+    margin-top: 15px;
+}
+
+.price span {
+    color: #C1122A;
+}
+
+.tags {
+    color: #474342;
+}
+
+.tags span {
+    line-height: 24px;
+}
+
+.dot {
+    margin: 0 10px;
+}
+.dot div {
+    height: 4px;
+    width: 4px;
+    background-color: #BFC5CE;
+    border-radius: 50%;
+}
+
+/* RIGHT-BOTTOM */
+.bottom {
+    margin-top: 30px;
+}
+.bottom-textdiv {
+    margin-left: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.bottom-text {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+/* BTNS */
+
+.btns {
+    border: 1px solid rgb(199, 199, 199);
+    border-radius: 10px;
+    margin-top: 30px;
+    width: 30%;
+    padding: 20px;
+}
+
+.tagbtns {
+    margin-top: 10px;
+}
+
+.tagbtns button {
+    width: 170px;
+    cursor: pointer;
+    margin-top: 5px;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    background: rgb(0, 207, 0);
+}
+
+.tagbtns button:last-child {
+    background: red;
+}
+
+/* INPUTS */
+.input:first-child {margin-top: 0;}
+
+.input {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px 10px;
+    width: 100%;
+    margin-top: 5px;
+}

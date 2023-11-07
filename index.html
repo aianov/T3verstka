@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <link type='text/css' href='http://fonts.googleapis.com/css?family=Lato:400,700' />
+    <title>Тестовое задание | Аянов Дулат</title>
+</head>
+
+<body>
+    <div class="main df jcc" style="margin-top: 100px;">
+        <div class="itemcard df aic">
+            <div class="left h100">
+                <img src="./images/product.jpg" alt="product image" class="w100 h100">
+            </div>
+            <div class="right df fdc jcsb h100">
+                <div class="top df fdc">
+                    <p class="title fz24 fw400 ww">
+                        Fruits and vegetables are packed with essential vitamins, minerals, and nutrients that are
+                        essential for maintaining a healthy body and mind
+                    </p>
+                    <div class="price df jcsb aifs">
+                        <p class="pricetext fz24 fw700 ww">
+                            Fruits and vegetables
+                        </p>
+                        <span class="priceprice fz24 fw700 ww" style="margin-top: 5px;">
+                            $ 3.90
+                        </span>
+                    </div>
+                    <div class="tags df jcfs fww fw400">
+                        <span>Fresh</span>
+                        <div class="added df">
+                            <div class="h100 dot df jcc aic">
+                                <div></div>
+                            </div>
+                            <span>Healthy food</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <div class="df aic">
+                        <div class="df jcc aic">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="20" viewBox="0 0 14 20"
+                                fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M7 0C3.13 0 0 3.13 0 7C0 11.17 4.42 16.92 6.24 19.11C6.64 19.59 7.37 19.59 7.77 19.11C9.58 16.92 14 11.17 14 7C14 3.13 10.87 0 7 0ZM7 9.5C5.62 9.5 4.5 8.38 4.5 7C4.5 5.62 5.62 4.5 7 4.5C8.38 4.5 9.5 5.62 9.5 7C9.5 8.38 8.38 9.5 7 9.5Z"
+                                    fill="#212B36" />
+                            </svg>
+                        </div>
+                        <div class="bottom-textdiv">
+                            <p class="bottom-text ww">Newport Beach, CA, USA</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer df jcc aic">
+        <div class="btns df fdc jcc aic">
+            <input class="input" type="text" placeholder="Изменить заголовок текста" onchange="titleText(this.value)">
+            <input class="input" type="text" placeholder="Изменить текст цены" onchange="priceText(this.value)">
+            <input class="input" type="text" placeholder="Изменить цену" maxlength="4"
+                onchange="priceValue(this.value)">
+            <input class="input" type="text" placeholder="Изменить текст с местоположением"
+                onchange="footerText(this.value)">
+            <div class="tagbtns w100">
+                <input class="input" type="text" placeholder="Добавить текст к тэгам" onchange="tagText(this.value)">
+                <button onclick="addTag()">Добавить тэг</button>
+                <button onclick="removeTag()">Удалить последний тэг</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./index.js"></script>
+
+</html>
